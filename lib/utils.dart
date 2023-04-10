@@ -1,0 +1,71 @@
+import 'package:flutter/material.dart';
+
+import 'models/calcinput.dart';
+
+List<CalcInput> calc_inputs = [
+  CalcInput(input: "cpans"),
+  CalcInput(input: "psans"),
+  CalcInput(input: "ans"),
+  CalcInput(input: "="),
+  CalcInput(input: "", icon: Icons.backspace_outlined),
+  CalcInput(input: "deg"),
+  CalcInput(input: "("),
+  CalcInput(input: ")"),
+  CalcInput(input: "%"),
+  CalcInput(input: "C"),
+  CalcInput(input: "inv"),
+  CalcInput(input: "9"),
+  CalcInput(input: "8"),
+  CalcInput(input: "7"),
+  CalcInput(input: "+"),
+  CalcInput(input: "sin"),
+  CalcInput(input: "6"),
+  CalcInput(input: "5"),
+  CalcInput(input: "4"),
+  CalcInput(input: "-"),
+  CalcInput(input: "cos"),
+  CalcInput(input: "3"),
+  CalcInput(input: "2"),
+  CalcInput(input: "1"),
+  CalcInput(input: "x"),
+  CalcInput(input: "tan"),
+  CalcInput(input: "."),
+  CalcInput(input: "0"),
+  CalcInput(input: "e"),
+  CalcInput(input: "/"),
+  CalcInput(input: "sqrt"),
+  CalcInput(input: "sq"),
+  CalcInput(input: "cbrt"),
+  CalcInput(input: "cb"),
+  CalcInput(input: "rt"),
+  CalcInput(input: "!"),
+  CalcInput(input: "pi"),
+  CalcInput(input: "mod"),
+  CalcInput(input: "log"),
+  CalcInput(input: "pow"),
+];
+List<String> decimal = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "."];
+List<String> scientific = [
+  "sin",
+  "sininv",
+  "cos",
+  "cosinv",
+  "tan",
+  "taninv",
+  "log",
+  "ln",
+  "sqrt",
+  "cbrt",
+  "pow",
+  "mod",
+  "rt",
+  "e"
+];
+List<String> others = [
+  "%",
+  "!",
+  "pi",
+  "sq",
+  "cb",
+];
+List<String> arithmetic = ["/", "x", "+", "-"];
